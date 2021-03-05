@@ -63,13 +63,13 @@ public class TrocaVariavel {
 		int temp = 2;
 
 		//processamento
-		System.out.println("essa é a A = " + a);
-		System.out.println("essa é a B = " + b);
+		System.out.println("essa Ã© a A = " + a);
+		System.out.println("essa Ã© a B = " + b);
 	  temp = a;
 	  a = b;
 	  b = temp;
-		System.out.println("essa é a A = " + a);
-		System.out.println("essa é a B = " + b);
+		System.out.println("essa Ã© a A = " + a);
+		System.out.println("essa Ã© a B = " + b);
 		//% resto
 		a = a+1;
 		System.out.println(a);
@@ -83,32 +83,32 @@ public class Temperatura {
 	public static void main(String[] args) {
 		
 	
-	//declarações
+	//declaraÃ§Ãµes
 	int celsius;
 	int farenheit;
 	Scanner leitor = new Scanner(System.in); //objeto que le do teclado1
-	//intruções
+	//intruÃ§Ãµes
 	
 	
 	System.out.println("Digite a temperatura em Celsius: ");
 	celsius = leitor.nextInt();
 	// Processamento
 	farenheit = ((celsius*9)/5)+32;
-	System.out.println("A temperatura em farenheit é " + farenheit);
+	System.out.println("A temperatura em farenheit Ã© " + farenheit);
 }
 }
 import java.util.Scanner;
 
 public class segundos {
 public static void main(String[] args) {
-	// Declarações
+	// DeclaraÃ§Ãµes
 	int data1;
 	int data2;
 	int data3;
 	int soma;
 	int dias;
 	Scanner leitor = new Scanner(System.in); //objeto que le do teclado1
-	// Instruções
+	// InstruÃ§Ãµes
 	System.out.println("Hora: ");
 	data1 = leitor.nextInt();
 	System.out.println("Minuto: ");
@@ -127,7 +127,7 @@ import java.util.Scanner;
 
 public class oiRs {
 	public static void main(String[] args) {
-		// Declarações
+		// DeclaraÃ§Ãµes
 		double arestaCubo;
 		double raioEsfera;
 		double raioCilindro;
@@ -136,7 +136,7 @@ public class oiRs {
 		double volumeEsfera;
 		double volumeCilindro;
 		Scanner leitor = new Scanner(System.in);
-		// Instruções
+		// InstruÃ§Ãµes
 		System.out.println("digite a aresta do cubo: ");
 		arestaCubo = leitor.nextDouble();
 		
@@ -169,7 +169,7 @@ public static void main(String[] args) {
 	double nota;
 	double soma;
 	double media;
-	// Instruções
+	// InstruÃ§Ãµes
 	soma = 0;
 	for (aluno = 0; aluno < 6; aluno++) {	
 		System.out.println("Digite a nota do " + aluno + " aluno: ");
@@ -177,7 +177,7 @@ public static void main(String[] args) {
 		soma = soma + nota;
 	}
 	media = soma / aluno;
-	System.out.println("A média da turma é " + media);
+	System.out.println("A mÃ©dia da turma Ã© " + media);
      }
 }
 
@@ -192,7 +192,7 @@ public static void main(String[] args) {
 	double imc;
 	Scanner leitor = new Scanner(System.in); //objeto que le do teclado1
 
-	// Instruções
+	// InstruÃ§Ãµes
 	System.out.println(" Qual e seu peso?: ");
 	peso = leitor.nextDouble();
 	System.out.println(" Qual e a sua altura?: ");
@@ -218,7 +218,7 @@ public static void main(String[] args) {
 	double e2;
 	double e3;
 	
-	// Instruções
+	// InstruÃ§Ãµes
 	
 	System.out.println("prova1: ");
 	p1 = leitor.nextDouble();
@@ -270,12 +270,12 @@ public class Calculadora {
 		rest = operando1 % operando2;
 		inc = ++operando1; 
 		//saida
-		System.out.println("o resultado da soma é: " + soma + "");
-		System.out.println("o resultado da sub é: " + sub + "");
-		System.out.println("o resultado da mult é: " + mult + "");
-		System.out.println("o resultado da div é: " + div + "");
-		System.out.println("o resultado o rest é: " + rest + "");
-		System.out.println("o resultado inc é: " + inc + "");
+		System.out.println("o resultado da soma Ã©: " + soma + "");
+		System.out.println("o resultado da sub Ã©: " + sub + "");
+		System.out.println("o resultado da mult Ã©: " + mult + "");
+		System.out.println("o resultado da div Ã©: " + div + "");
+		System.out.println("o resultado o rest Ã©: " + rest + "");
+		System.out.println("o resultado inc Ã©: " + inc + "");
 
 		
 	}
