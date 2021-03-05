@@ -42,7 +42,7 @@ public abstract class Conta {
 
 	public Conta(int agencia, int numero) {
 		Conta.total++;
-		System.out.println("O total de contas é " + Conta.total);
+		System.out.println("O total de contas Ã© " + Conta.total);
 		this.agencia = agencia;
 		this.numero = numero;
 		this.saldo = 100;
@@ -157,9 +157,9 @@ public class TesteContas {
 
 		cc.transfere(10.0, cp);
 
-		System.out.println("saldo de cp é " + cp.getSaldo());
+		System.out.println("saldo de cp Ã© " + cp.getSaldo());
 
-		System.out.println("saldo de cc é " + cc.getSaldo());
+		System.out.println("saldo de cc Ã© " + cc.getSaldo());
 	}
 
 }
