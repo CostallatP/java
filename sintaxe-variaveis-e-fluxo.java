@@ -26,7 +26,7 @@ public class TestaVariaveis {
 	idade = (7* 5)+ 2;
 	System.out.println(idade);
 	
-	System.out.println("a idade È " + idade + ", parabÈns!!");
+	System.out.println("a idade √© " + idade + ", parab√©ns!!");
 	
 	}
 }
@@ -73,7 +73,7 @@ public class TestaPontoFlutuante {
 	public static void main(String[] args) {
 		double salario;
 		salario = 1250.70;
-		System.out.println("meu salario È " + salario);
+		System.out.println("meu salario √© " + salario);
 		
 	    double divisao = 3.14 / 2;
 	    System.out.println(divisao);
@@ -136,7 +136,7 @@ public class testaConversao {
 	public static void main(String[] args) {
 		double salario = 1270.50;
 		int valor = (int)salario;
-		System.out.println("È " + valor);
+		System.out.println("√© " + valor);
 		float pontoFlutuante = 3.14f;
 		long numeroGrande = 312312121231231l;
 		//System.out.println(numeroGrande);
@@ -174,12 +174,12 @@ public class TestaCondicional {
 		int idade = 2;
 		int quantidadePessoas = 1;
 		if (idade >= 18) {
-			System.out.println("vocÍ tem mais de 18 anos");
+			System.out.println("voc√™ tem mais de 18 anos");
 			System.out.println("seja bem vindo");
 		}
 		else {
 			if(quantidadePessoas >= 2) {
-				System.out.println("aaa ent„o vc pode");
+				System.out.println("aaa ent√£o vc pode");
 			}else {
 				System.out.println("acesso negado.");
 		}}
