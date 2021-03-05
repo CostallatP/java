@@ -32,7 +32,7 @@ public class Conta {
 	
 	public Conta(int agencia, int numero) {
 		Conta.total++;
-		//System.out.println("total de contas é: " + Conta.total);
+		//System.out.println("total de contas Ã©: " + Conta.total);
 		this.agencia = agencia;
 		this.numero = numero;
 		//System.out.println("conta: " + this.numero);
@@ -81,7 +81,7 @@ public class Conta {
 	}
 	public void setAgencia(int agencia) {
 		if(agencia <= 0) {
-			System.out.println("não pode valor menor igual a 0");
+			System.out.println("nÃ£o pode valor menor igual a 0");
 		return;
 		}
 		this.agencia = agencia;
