@@ -81,14 +81,14 @@ public class Gerente extends Funcionario{
 	
 }
 
-//nao pode instaciar dessa classe, pq È abstrata
+//nao pode instaciar dessa classe, pq √© abstrata
 public abstract class Funcionario {
 	
 	private String nome;
 	private String cpf;
 	private double salario;
 	
-//metodo sem corpo, n„o ha implementacao
+//metodo sem corpo, n√£o ha implementacao
 	public abstract double getBonificacao();
 	
 	public String getNome() {
